@@ -10,6 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>service</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>service-acl</module>
+    </modules>
 
     <dependencies>
         <!--依赖服务的工具类-->
@@ -43,24 +47,24 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
-        <!-- 服务注册 -->
+      <!--  &lt;!&ndash; 服务注册 &ndash;&gt;
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
 
-        <!-- 服务调用feign -->
+        &lt;!&ndash; 服务调用feign &ndash;&gt;
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
-        <!-- 流量控制 -->
+        &lt;!&ndash; 流量控制 &ndash;&gt;
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
         </dependency>
-
+-->
         <!--开发者工具-->
         <dependency>
             <groupId>org.springframework.boot</groupId>

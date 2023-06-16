@@ -27,7 +27,7 @@
         <mybatis-plus.version>3.4.1</mybatis-plus.version>
         <mysql.version>8.0.30</mysql.version>
         <jwt.version>0.7.0</jwt.version>
-        <fastjson.version>2.0.0</fastjson.version>
+        <fastjson.version>1.2.25</fastjson.version>
         <httpclient.version>4.5.1</httpclient.version>
         <easyexcel.version>3.1.0</easyexcel.version>
         <aliyun.version>4.1.1</aliyun.version>
