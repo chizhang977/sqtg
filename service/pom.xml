@@ -13,6 +13,9 @@
     <packaging>pom</packaging>
     <modules>
         <module>service-acl</module>
+        <module>service-sys</module>
+        <module>service-product</module>
+        <module>service-search</module>
     </modules>
 
     <dependencies>
@@ -47,24 +50,24 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
-      <!--  &lt;!&ndash; 服务注册 &ndash;&gt;
+
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
 
-        &lt;!&ndash; 服务调用feign &ndash;&gt;
+
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
-        &lt;!&ndash; 流量控制 &ndash;&gt;
+
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
         </dependency>
--->
+
         <!--开发者工具-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
